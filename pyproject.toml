@@ -15,12 +15,12 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "langchain>=0.1.0",
+    "langchain>=0.3.30",
     "langchain-groq>=0.1.0", 
     "langgraph>=0.1.0",
     "pandas>=2.0.0",
     "numpy>=1.24.0",
-    "python-dotenv>=1.0.0",
+    "python-dotenv>=1.2.1",
     "tavily-python>=0.3.0",
     "sentence-transformers>=2.2.0",
     "faiss-cpu>=1.7.0",
@@ -30,7 +30,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0.0",
+    "pytest>=8.4.2",
     "black>=23.0.0",
     "flake8>=6.0.0",
     "mypy>=1.0.0",
